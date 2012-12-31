@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- コレクションのテスト用 -->
+<root>
+	<collectionTest>
+		<listConcreteClass>
+			<ConcreteClass>List具象クラス1</ConcreteClass>
+			<ConcreteClass>List具象クラス2</ConcreteClass>
+		</listConcreteClass>
+		<setConcreteClass>
+			<ConcreteClass>Set具象クラス1</ConcreteClass>
+			<ConcreteClass>Set具象クラス2</ConcreteClass>
+		</setConcreteClass>
+		<listGenericsValify>
+			<genericsValify>5000</genericsValify>
+			<genericsValify>7000</genericsValify>
+		</listGenericsValify>
+		<listGenericsNon>
+			<genericsNon>Listジェネリクスなし1</genericsNon>
+			<genericsNon>Listジェネリクスなし2</genericsNon>
+		</listGenericsNon>
+		<setGenericsNon>
+			<genericsNon>Setジェネリクスなし1</genericsNon>
+			<genericsNon>Setジェネリクスなし2</genericsNon>
+		</setGenericsNon>
+		<listNotNullInit>
+			<notNullInit>Listの初期値がnullでない1</notNullInit>
+			<notNullInit>Listの初期値がnullでない2</notNullInit>
+		</listNotNullInit>
+		<setNotNullInit>
+			<notNullInit>Setの初期値がnullでない1</notNullInit>
+			<notNullInit>Setの初期値がnullでない2</notNullInit>
+		</setNotNullInit>
+	</collectionTest>
+</root>

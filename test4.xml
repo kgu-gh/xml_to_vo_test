@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 異常系テスト用 -->
+<root>
+	<exceptions>
+		<convertErrorPrimitive>文字列をint値に変換しようとして失敗</convertErrorPrimitive>
+		<convertErrorWrapper>文字列をInteger値に変換しようとして失敗</convertErrorWrapper>
+		<cannotCreateInstanceList>生成できないリスト</cannotCreateInstanceList>
+		<bindOkValue>別のフィールドでエラーが発生しても他のフィールドには影響しない</bindOkValue>
+	</exceptions>
+</root>

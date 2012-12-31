@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ネームスペースありXMLのテスト用 -->
+<root xmlns:t="t">
+	<t:nsTest>
+		<t:nsAttach>名前空間があってもローカルネームでアクセスできる</t:nsAttach>
+	</t:nsTest>
+</root>

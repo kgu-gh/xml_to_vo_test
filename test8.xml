@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="EUC-JP" ?>
+<!-- 正常系テスト用 -->
+<root>
+	<normal>
+		<element>
+			<elementSub attribute="アトリビュートデータ">テキストデータ</elementSub>
+		</element>
+		<elements>
+			<elementSubs attribute="アトリビュートデータ複数件1">テキストデータ複数件1</elementSubs>
+			<elementSubss attribute="アトリビュートデータ複数件1-1">テキストデータ複数件1-1</elementSubss>
+			<elementSubsss attribute="アトリビュートデータ複数件1-1-1">テキストデータ複数件1-1-1</elementSubsss>
+		</elements>
+		<elements>
+			<elementSubs attribute="アトリビュートデータ複数件2">テキストデータ複数件2</elementSubs>
+			<elementSubss attribute="アトリビュートデータ複数件2-1">テキストデータ複数件2-1</elementSubss>
+			<elementSubsss attribute="アトリビュートデータ複数件2-1-1">テキストデータ複数件2-1-1</elementSubsss>
+		</elements>
+		<elementEmpty>
+			<elementSub />
+		</elementEmpty>
+		<elementNull>
+		</elementNull>
+		<escapeIncluded>&amp;あい&lt;うえお   　か&gt;きくけ&quot;こ&apos;</escapeIncluded>
+		<escapeIncludedAttr attr="&amp;attrあい&lt;うえお   　か&gt;きくけ&quot;こ&apos;" />
+		
+		<twoGetterSetter>オーバーロードされたメソッドがあっても値設定される</twoGetterSetter>
+		<typeDiff>1001</typeDiff>
+	</normal>
+</root>

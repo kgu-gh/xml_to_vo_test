@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 型のテスト用 -->
+<root>
+	<typeTest>
+		<intType attribute="1">2</intType>
+		<byteType>3</byteType>
+		<shortType>4</shortType>
+		<longType>1000000</longType>
+		<floatType>1000.5</floatType>
+		<doubleType>555.582</doubleType>
+		<booleanType>true</booleanType>
+		
+		<IntegerType>700000</IntegerType>
+		<ByteType>8</ByteType>
+		<ShortType>5</ShortType>
+		<LongType>9000000</LongType>
+		<FloatType>999.51</FloatType>
+		<DoubleType>55598.58277</DoubleType>
+		<BooleanType>true</BooleanType>
+	</typeTest>
+</root>
